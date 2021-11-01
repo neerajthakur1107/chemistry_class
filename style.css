@@ -54,12 +54,12 @@ nav ul li a {
 nav ul li a:hover {
 	color: #fff;
 	border-radius: 5px;
-	background: #DF2771;
+	background: #241571;
 }
 .active {
 	color: #fff;
 	border-radius: 5px;
-	background: #DF2771;
+	background: #241571;
 }
 .srch {
 	padding: 2px 10px;
@@ -84,12 +84,12 @@ nav ul li a:hover {
 .get-started {
 	margin-left: 50px;
 	padding: 5px 20px;
-	border: 2px solid #DF2771;
+	border: 2px solid #241571;
 	border-radius: 20px;
 	text-decoration: none;
 	
 	transition: .5s;
-	background-color: #DF2771;
+	background-color: #241571;
 	color: #fff;
 }
 .get-started:hover {
@@ -189,7 +189,7 @@ a, button {
 }
 .side-menu ul li:hover a{
 	background: #fff;
-	color: #DF2771;
+	color: #241571;
 }
 .side-menu ul li a{
 	color: #FFF;
@@ -282,11 +282,11 @@ a, button {
 }
 .smbox .data {
 	font-size: 80px;
-	color: #FA6146;	
+	color: #1F456E;	
 }
 .smbox .det {
 	font-size: 20px;
-	color: #272529;
+	color: #dfc5f8;
 	font-family: cursive;
 }
 
@@ -364,14 +364,14 @@ a, button {
 	width: 250px;
 	padding: 28px;
 	border-radius: 10px;
-	border: 1px solid #FA4B37;
+	border: 1px solid #1F456E;
 	font-size: 15px;
 	color: #272529;
 	font-family: cursive;
 	text-decoration: none;
 }
 .cbox .det a:hover {
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #1F456E, #241571);
 	color: white;
 }
 .cbox .det a:hover img{
@@ -513,7 +513,7 @@ a, button {
 
 /*Contact Us Section*/
 .csec {
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #1F456E, #241571);
 	background-attachment: fixed; 
 	position: absolute;
 	width: 100%;
@@ -578,7 +578,7 @@ form textarea {
 }
 #csubmit {
 	margin-top: 20px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #1F456E, #241571);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
@@ -743,7 +743,7 @@ form textarea {
 }
 .feed #csubmit {
 	margin-top: 25px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #1F456E, #241571);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
@@ -766,7 +766,7 @@ form textarea {
 /*FOOTER*/
 footer {
 	color: #E5E8EF;
-	background: #000D;
+	background: #151313;
 	padding: 50px 0; 
 }
 footer .footer-container {
@@ -796,7 +796,7 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #1F456E, #241571);
 	margin: 2px;
 }
 footer .newsletter-form {
@@ -826,7 +826,7 @@ footer .btn {
 	padding: 18px 40px;
 	font-size: 16px;
 	color: #f1f1f1;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #1F456E, #241571);
 	border: none;
 	font-weight: 700;
 	outline: none;
