@@ -200,6 +200,7 @@ a, button {
 	padding: 15px 0px;
 }
 .close img{
+	background-color: #000000;
 	float: right;
 	width: 35px;
 	cursor: pointer;

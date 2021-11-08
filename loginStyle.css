@@ -118,12 +118,13 @@ body {
 	cursor: pointer;
 	display: block;
 	margin: auto;
-	background: linear-gradient(to right, #1F456E, #241571);
+	background-image: linear-gradient(to right, #1F456E, #241571);
 	color: #fff;
 	border: 0;
 	outline: none;
 	border-radius: 30px;
 }
+
 
 .reg-btn {
 	background: lightgray;

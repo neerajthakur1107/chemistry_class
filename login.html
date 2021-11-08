@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<link rel="shortcut icon" type="png" href="images/icon/favi.png">
 	<title>Login SignUp</title>
 	<link rel="stylesheet" type="text/css" href="loginStyle.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -27,9 +27,44 @@
 				<img src="images/icon/insta2.png">
 				<img src="images/icon/tt2.png">
 			</div>
+
+			<!-- Login Form -->
+			<form id="login" class="input-group" action="login.php" method="post">
+				<div class="inp">
+					<img src="images/icon/user.png"><input type="text" name="Email" id="email" class="input-field" placeholder="Email" style="width: 88%; border:none;" required="required">
+				</div>
+				<div class="inp">
+					<img src="images/icon/password.png"><input name="Password" type="password" id="password" class="input-field" placeholder="Password" style="width: 88%; border: none;" required="required">
+				</div>
+				<input type="checkbox" name="check" class="check-box">Remember Password
+				<button type="submit" class="submit-btn"><a style="color: #fff; text-decoration: none;" href="index.html">Log In</a></button>
+			</form>
+
+
+			<div class="other" id="other">
+				<div class="instead">
+					<h3>or</h3>
+				</div>
+				<button class="connect" onclick="google()">
+					<img src="images/icon/google.png"><span>Sign in with Google</span>
+				</button>
+			</div>
+			
+			
+			<!-- Registration Form -->
+			<form id="register" class="input-group"  action="register.php" method="post">
+				<input type="text" class="input-field" placeholder="Full Name" name="Name" required="required">
+				<input type="email" class="input-field" placeholder="Email Address" name="Email" required="required">
+				<input type="password" class="input-field" placeholder="Create Password" name="Password" required="required">
+				<input type="password" class="input-field" placeholder="Confirm Password" name="cPassword" required="required">
+				<input type="checkbox" class="check-box" name="comp" id="chkAgree" onclick="goFurther()">I agree to the Terms & Conditions
+				<a href="login.html" style="text-decoration: none;"><button type="submit" id="btnSubmit"  class="submit-btn reg-btn" >Register</button></a>
+			</form>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
 			
 			<!-- Login Form -->
-			<form id="login" class="input-group" action="index.html">
+			<!-- <form id="login" class="input-group" action="index.html">
 				<div class="inp">
 					<img src="images/icon/user.png"><input type="text" id="email" class="input-field" placeholder="Username or Phone Number" style="width: 88%; border:none;" required="required">
 				</div>
@@ -50,7 +85,7 @@
 				</button>
 			</div>
 			
-			<!-- Registration Form -->
+			 Registration Form 
 			<form id="register" class="input-group">
 				<input type="text" class="input-field" placeholder="Full Name" required="required">
 				<input type="email" class="input-field" placeholder="Email Address" required="required">
@@ -60,6 +95,6 @@
 				<button type="submit" id="btnSubmit" class="submit-btn reg-btn">Register</button>
 			</form>
 		</div>
-		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="script.js"></script> -->
 </body>
 </html>
