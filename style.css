@@ -919,7 +919,7 @@ footer .btn:hover {
 
 @media screen and (min-width: 360px ) and (max-width:480px) {
 	.slide{
-		margin-top: -130%; 
+		margin-top: -160%; 
 		margin-bottom: 10%;
 	}
 
