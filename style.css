@@ -910,7 +910,7 @@ footer .btn:hover {
 		width: 100%;
 	}
 }
-@media screen and (max-width: 375px) {	
+@media screen and (max-width: 425px) {	
 .slide{
 	margin-top: -130%; 
 	margin-bottom: 10%;
