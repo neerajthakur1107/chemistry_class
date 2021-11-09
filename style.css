@@ -912,14 +912,14 @@ footer .btn:hover {
 }
 @media screen and (max-width: 360px) {	
 .slide{
-	margin-top: -300%; 
+	margin-top: -200px; 
 	margin-bottom: 10%;
 }
 }
 
 @media screen and (min-width: 360px ) and (max-width:480px) {
 	.slide{
-		margin-top: -200%; 
+		margin-top: -200px; 
 		margin-bottom: 10%;
 	}
 
