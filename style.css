@@ -7,6 +7,10 @@
 	margin: 0;
 	padding: 0;
 }
+.slide{
+	margin-top: -38%; 
+	margin-bottom: 10%;
+}
 
 html {
 	scroll-behavior: smooth;
@@ -905,4 +909,10 @@ footer .btn:hover {
 	.feedbox form input, .feedbox form .fname{
 		width: 100%;
 	}
+}
+@media screen and (max-width: 360px) {	
+.slide{
+	margin-top: -130%; 
+	margin-bottom: 10%;
+}
 }
