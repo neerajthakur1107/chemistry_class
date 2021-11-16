@@ -926,10 +926,10 @@ header {
 		height: 90vh;
 		/* background: #000; */
 	}
-	.slide{
-		margin-top: -20%; 
+	/* .slide{
+		margin-top: -10%; 
 		margin-bottom: 10%;
-	}			
+	}			 */
 }
 
 /* @media screen and (min-width: 360px ) and (max-width:480px) {
