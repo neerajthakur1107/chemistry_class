@@ -912,7 +912,7 @@ footer .btn:hover {
 }
 @media screen and (max-width: 767px) {
 header {
-		height: 15vh;
+		height: 5vh;
 		/* background: #000; */
 	}		
 .slide{
