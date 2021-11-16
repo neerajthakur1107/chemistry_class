@@ -910,9 +910,9 @@ footer .btn:hover {
 		width: 100%;
 	}
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
 header {
-		height: 30vh;
+		height: 15vh;
 		/* background: #000; */
 	}		
 .slide{
