@@ -22,7 +22,7 @@ body {
 
 header {
 	height: 90vh;
-	background: #000;
+	/* background: #000; */
 }
 .black {
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -915,7 +915,7 @@ footer .btn:hover {
  @media screen and (max-width: 425px) {
 header {
 		height: 20vh;
-		background: #000;
+		/* background: #000; */
 	}
 .slide{
 	margin-top: -10%; 
