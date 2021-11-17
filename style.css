@@ -903,10 +903,7 @@ footer .btn:hover {
 		margin: 20px;
 		/* align-self: center; */
 	}
-	header {
-		height: 35vh;
-		background: #000;
-	}
+	
 
 }
 
@@ -915,16 +912,16 @@ footer .btn:hover {
 		width: 100%;
 	}
 }
- /* @media screen and (max-width: 425px) {
+ @media screen and (max-width: 425px) {
 header {
-		height: 15vh;
+		height: 20vh;
 		background: #000;
 	}
 .slide{
 	margin-top: -10%; 
 	margin-bottom: 11%;
 }
-} */
+}
 
 
 /* @media screen and (min-width: 900px ) and (max-width:1280px) { */
