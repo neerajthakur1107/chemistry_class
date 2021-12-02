@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	margin-right: 0px;
 }
 .slide{
 	margin-top: -38%; 
@@ -239,7 +240,7 @@ a, button {
 }
 .diffSection {
 	width: 100%;
-	/*position: relative;*/
+	/* position: relative; */
 	justify-content: center;
 	align-items: center;
 }
@@ -921,8 +922,12 @@ header {
 	margin-top: -10%; 
 	margin-bottom: 11%;
 }
+
 }
 
+/* @media (max-width: 479px){
+
+} */
 
 /* @media screen and (min-width: 900px ) and (max-width:1280px) { */
 /* .slide{ 
