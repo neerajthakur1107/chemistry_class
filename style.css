@@ -964,15 +964,16 @@ header {
 		align-items: center;
 	}
 	.about-content .side-text {
-		width: 550px;
-		padding: 50px 40px;
+		margin-left: 22%;
+		width: 500px;
+		padding: 20px 20px;
 		background: #fff;
 		box-shadow: 2px 0 100px rgba(0,0,0,0.3);
 		border-radius: 5px;
 		text-align: justify;
 		line-height: 22px;
 		opacity: 0;
-		transform: translateX(-100px);
+		transform: translateX(-80px);
 		transition: 1s ease-in-out;
 	}
 	.about-content .side-text-appear {
@@ -986,11 +987,13 @@ header {
 		padding: 10px;
 	}
 	.about-content .side-image img {
+		margin-left: 16%;
+		/* margin-right:-10px; */
 		width: 90%;
 		border-radius: 5px;
 	}
 	.sideImage {
-		transform: translateX(100px);
+		transform: translateX(40px);
 		opacity: 0;
 		transition: .8s ease-in-out;
 	}
